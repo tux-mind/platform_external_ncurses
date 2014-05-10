@@ -9,9 +9,9 @@ LOCAL_CFLAGS:= -DHAVE_CONFIG_H -DNDEBUG
 LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 
 LOCAL_C_INCLUDES:= \
-	ncurses/ncurses\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/ncurses\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	ncurses/tty/hardscroll.c\
 	ncurses/tty/hashmap.c\
@@ -179,9 +179,9 @@ LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS+=  -Wl,--gc-sections -static
 
 LOCAL_C_INCLUDES:= \
-	ncurses/progs\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/progs\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	progs/tic.c\
 	progs/dump_entry.c\
@@ -207,9 +207,9 @@ LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS+=  -Wl,--gc-sections -static
 
 LOCAL_C_INCLUDES:= \
-	ncurses/progs\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/progs\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	progs/infocmp.c\
 	progs/dump_entry.c
@@ -234,9 +234,9 @@ LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS+=  -Wl,--gc-sections -static
 
 LOCAL_C_INCLUDES:= \
-	ncurses/progs\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/progs\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	progs/clear.c
 LOCAL_STATIC_LIBRARIES:= \
@@ -260,9 +260,9 @@ LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS+=  -Wl,--gc-sections -static
 
 LOCAL_C_INCLUDES:= \
-	ncurses/progs\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/progs\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	progs/tabs.c
 LOCAL_STATIC_LIBRARIES:= \
@@ -286,9 +286,9 @@ LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS+=  -Wl,--gc-sections -static
 
 LOCAL_C_INCLUDES:= \
-	ncurses/progs\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/progs\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	progs/tput.c\
 	progs/transform.c
@@ -313,9 +313,9 @@ LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS+=  -Wl,--gc-sections -static
 
 LOCAL_C_INCLUDES:= \
-	ncurses/progs\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/progs\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	progs/tset.c\
 	progs/transform.c
@@ -340,9 +340,9 @@ LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS+=  -Wl,--gc-sections -static
 
 LOCAL_C_INCLUDES:= \
-	ncurses/progs\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/progs\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	progs/toe.c
 LOCAL_STATIC_LIBRARIES:= \
@@ -362,9 +362,9 @@ LOCAL_CFLAGS:= -DHAVE_CONFIG_H -DNDEBUG
 LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 
 LOCAL_C_INCLUDES:= \
-	ncurses/ncurses\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/ncurses\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	panel/panel.c\
 	panel/p_above.c\
@@ -395,9 +395,9 @@ LOCAL_CFLAGS:= -DHAVE_CONFIG_H -DNDEBUG
 LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 
 LOCAL_C_INCLUDES:= \
-	ncurses/ncurses\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/ncurses\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	menu/m_attribs.c\
 	menu/m_cursor.c\
@@ -439,9 +439,9 @@ LOCAL_CFLAGS:= -DHAVE_CONFIG_H -DNDEBUG
 LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
 
 LOCAL_C_INCLUDES:= \
-	ncurses/ncurses\
-	ncurses/objects\
-	ncurses/include
+	$(LOCAL_PATH)/ncurses\
+	$(LOCAL_PATH)/objects\
+	$(LOCAL_PATH)/include
 LOCAL_SRC_FILES:= \
 	form/fld_arg.c\
 	form/fld_attr.c\
