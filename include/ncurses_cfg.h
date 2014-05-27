@@ -105,7 +105,6 @@
 #define HAVE_FCNTL_H 1
 #define HAVE_GETOPT_H 1
 #define HAVE_LIMITS_H 1
-#define HAVE_LOCALE_H 1
 #define HAVE_MATH_H 1
 #define HAVE_POLL_H 1
 #define HAVE_SYS_IOCTL_H 1

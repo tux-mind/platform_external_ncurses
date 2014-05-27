@@ -381,6 +381,8 @@ LOCAL_SRC_FILES:= \
 	panel/p_update.c\
 	panel/p_user.c\
 	panel/p_win.c
+LOCAL_SHARED_LIBRARIES:= \
+	ncurses
 LOCAL_MODULE := libpanel
 
 include $(BUILD_STATIC_LIBRARY)
@@ -425,6 +427,8 @@ LOCAL_SRC_FILES:= \
 	menu/m_sub.c\
 	menu/m_userptr.c\
 	menu/m_win.c
+LOCAL_SHARED_LIBRARIES:= \
+	ncurses
 LOCAL_MODULE := libmenu
 
 include $(BUILD_STATIC_LIBRARY)
@@ -483,6 +487,8 @@ LOCAL_SRC_FILES:= \
 	form/fty_ipv4.c\
 	form/fty_num.c\
 	form/fty_regex.c
+LOCAL_SHARED_LIBRARIES:= \
+	ncurses
 LOCAL_MODULE := libform
 
 include $(BUILD_STATIC_LIBRARY)

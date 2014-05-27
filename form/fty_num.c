@@ -40,7 +40,7 @@ MODULE_ID("$Id: fty_num.c,v 1.28 2010/01/23 21:14:36 tom Exp $")
 #include <locale.h>
 #endif
 
-#if defined(HAVE_LOCALE_H) && !defined(__BIONIC__)
+#if HAVE_LOCALE_H
 #define isDecimalPoint(c) ((c) == ((L && L->decimal_point) ? *(L->decimal_point) : '.'))
 #else
 #define isDecimalPoint(c) ((c) == '.')
